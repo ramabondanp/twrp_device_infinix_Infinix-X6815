@@ -66,13 +66,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES_DEBUG += \
     bootctl
 
-PRODUCT_PACKAGES += \
-    android.hardware.vibrator-service.Infinix-X6815
-
-# Copy the vibrator into recovery image
-PRODUCT_COPY_FILES += \
-	$(OUT_DIR)/target/product/x6815/system/bin/hw/android.hardware.vibrator-service.Infinix-X6815:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hw/android.hardware.vibrator-service.Infinix-X6815
-
 # Fastbootd
 PRODUCT_PACKAGES += \
     android.hardware.fastboot@1.0-impl-mock \
