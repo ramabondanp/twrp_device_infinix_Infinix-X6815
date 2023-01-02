@@ -22,7 +22,7 @@ ALLOW_MISSING_DEPENDENCIES := true
 # Allow putting ELF in PRODUCT_COPY_FILES (required by vibrator)
 BUILD_BROKEN_ELF_PREBUILT_PRODUCT_COPY_FILES := true
 
-DEVICE_PATH := device/infinix/Infinix-X6815
+DEVICE_PATH := device/infinix/x6815
 PREBUILT_PATH := $(DEVICE_PATH)/prebuilt
 
 # Architecture

@@ -16,7 +16,7 @@
 # limitations under the License.
 #
 
-LOCAL_PATH := device/infinix/Infinix-X6815
+LOCAL_PATH := device/infinix/x6815
 
 # A/B
 AB_OTA_PARTITIONS += \
@@ -71,7 +71,7 @@ PRODUCT_PACKAGES += \
 
 # Copy the vibrator into recovery image
 PRODUCT_COPY_FILES += \
-	$(OUT_DIR)/target/product/Infinix-X6815/system/bin/hw/android.hardware.vibrator-service.Infinix-X6815:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hw/android.hardware.vibrator-service.Infinix-X6815
+	$(OUT_DIR)/target/product/x6815/system/bin/hw/android.hardware.vibrator-service.Infinix-X6815:$(TARGET_COPY_OUT_RECOVERY)/root/system/bin/hw/android.hardware.vibrator-service.Infinix-X6815
 
 # Fastbootd
 PRODUCT_PACKAGES += \

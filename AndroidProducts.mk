@@ -17,5 +17,4 @@
 #
 
 PRODUCT_MAKEFILES := \
-     $(LOCAL_DIR)/twrp_Infinix-X6815.mk
-
+     $(LOCAL_DIR)/twrp_x6815.mk
